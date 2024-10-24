@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "49c0bad2c7458f1c76bec9654081a661"  # Usa tu propio API Key
+API_KEY = "49c0bad2c7458f1c76bec9654081a661"  # Usa tu propio API Key API KEY:8c6831471f6b4d85312c37eeea569747(no activado aún)
 
 @app.route('/', methods=['GET', 'POST'])
 def weather():
