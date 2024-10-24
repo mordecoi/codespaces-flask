@@ -36,6 +36,3 @@ def weather():
             msg = result.get('message', 'Error al obtener los datos')
 
     return render_template('weather.html', status=status, result=result if status == "yes" else None, msg=msg, city=city)
-
-if __name__ == '__main__':
-    app.run(debug=True)
